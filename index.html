@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .wrapper {
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .left, .right{
+      height: 100%;
+    }
+
+    .left {
+      width: 50%;
+      resize: horizontal;
+      overflow: auto;
+      background-image: url(joseph-pearson-827XUhVSp8M-unsplash.jpg);
+      filter: invert();
+      position: absolute;
+    }
+
+    .right{
+      background-image: url(joseph-pearson-827XUhVSp8M-unsplash.jpg);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+</body>
+</html>
